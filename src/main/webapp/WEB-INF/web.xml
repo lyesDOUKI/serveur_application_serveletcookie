@@ -11,6 +11,10 @@
         <servlet-name>secondServlet</servlet-name>
         <servlet-class>com.ceri.servletcookie.SecondServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>troisiemeServlet</servlet-name>
+        <servlet-class>com.ceri.servletcookie.TroisiemeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
         <url-pattern>/hello-servlet</url-pattern>
@@ -18,5 +22,9 @@
     <servlet-mapping>
         <servlet-name>secondServlet</servlet-name>
         <url-pattern>/second-servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>troisiemeServlet</servlet-name>
+        <url-pattern>/troisieme-servlet</url-pattern>
     </servlet-mapping>
 </web-app>

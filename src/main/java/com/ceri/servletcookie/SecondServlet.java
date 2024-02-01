@@ -36,7 +36,9 @@ public class SecondServlet extends HttpServlet{
         out.println("<h1>Bonjour " + nom + "</h1>");
         out.println("<a href='hello-servlet'>Retour à helloServlet</a>");
         out.println("<br><a href='second-servlet?nom="
-                + nom + "'>Réafficher la page</a>");
+                + nom + "'>Réafficher la page</a> <br>");
+        out.println("go to troisieme servlet <a href='troisieme-servlet'>TroisiemeServlet</a>");
         out.println("</body></html>");
+
     }
 }
